@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.816e67ab.css","mappings":"AAAA,KACE,wBAAyB,CACzB,UACF,CCHA,KACE,iBACF,CAEA,UACE,aACF","sources":["index.css","App.css"],"sourcesContent":["body {\n  background-color: #282c34;\n  color: white;\n}\n",".App {\n  text-align: center;\n}\n\n.App-link {\n  color: #61dafb;\n}"],"names":[],"sourceRoot":""}
