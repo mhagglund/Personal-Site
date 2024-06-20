@@ -2,3 +2,16 @@ body {
   background-color: #282c34;
   color: white;
 }
+
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: lightgray;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  font-weight: bold;
+}
