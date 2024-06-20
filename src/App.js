@@ -7,7 +7,7 @@ import Navigation from './navigation';
 
 const App = () => {
   return (
-    <div className="App col-lg-6 col-md-8 mx-auto">
+    <div className="App col-xl-6 col-lg-7 col-md-9 mx-auto">
       <header className="App-header">
         <Navigation />
       </header>
