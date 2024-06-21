@@ -9,26 +9,28 @@ type Link = {
 type CardProps = {
   title: string,
   content: string,
-  links: Link[]
+  links?: Link[]
 }
-const ProjectCard = ({title, content, links}: CardProps) => {
+const StyledCard = ({ title, content, links }: CardProps) => {
   return (
-    <Card className="bg-secondary m-2">
+    <Card className="bg-dark text-white m-2">
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
           {content}
         </Card.Text>
       </Card.Body>
-      <Card.Footer>
-        {links?.map(link => {
+
+      {links && <Card.Footer>
+        {links.map(link => {
           return (
             <Card.Link href={link.href} target="_blank" className="text-white">{link.text}</Card.Link>
           );
         })}
       </Card.Footer>
-    </Card>
+      }
+    </Card >
   );
 }
 
-export default ProjectCard;
+export default StyledCard;
